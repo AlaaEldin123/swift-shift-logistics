@@ -1,0 +1,40 @@
+.bg-customers-say {
+    background-color: var(--bg-color);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 133px 0px 100px 0px;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        top: 165px;
+        right: 0px;
+        max-width: 50%;
+        width: 100%;
+        background-image: var(--left-background);
+        background-position: top left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 195px;
+        right: 30px;
+        max-width: 72px;
+        height: 73px;
+        width: 100%;
+        background-image: var(--shape-image);
+        background-position: top left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+}

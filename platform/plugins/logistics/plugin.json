@@ -1,0 +1,10 @@
+{
+    "id": "botble/logistics",
+    "name": "Logistics",
+    "namespace": "Botble\\Logistics\\",
+    "provider": "Botble\\Logistics\\Providers\\LogisticsServiceProvider",
+    "author": "Botble Technologies",
+    "url": "https://botble.com",
+    "version": "1.0.0",
+    "description": "Logistics management for Botble CMS"
+}

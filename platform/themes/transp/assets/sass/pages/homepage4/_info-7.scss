@@ -1,0 +1,23 @@
+.support-title {
+    background: url(../imgs/page/homepage4/support.png) no-repeat left center;
+    padding-inline-start: 30px;
+    margin-bottom: 7px;
+}
+.box-image-info-7 {
+    padding: 0px 30px;
+    position: relative;
+    background: no-repeat top 20px center;
+    background-size: contain;
+    .quote {
+        background: no-repeat center;
+        position: absolute;
+        bottom: -40px;
+        right: 50px;
+        height: 95px;
+        width: 115px;
+        z-index: 2;
+    }
+}
+.box-info-7 {
+    padding-inline-start: 60px;
+}

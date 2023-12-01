@@ -1,0 +1,10 @@
+{
+    "id": "botble/transp",
+    "name": "Transp",
+    "namespace": "Theme\\Transp\\",
+    "author": "Botble",
+    "url": "https://botble.com",
+    "version": "1.0.0",
+    "description": "Transp - Transport Courier & Logistics",
+    "required_plugins": []
+}

@@ -1,0 +1,32 @@
+.box-info-pround {
+    padding: 0 0 0 40px;
+}
+.box-image-touch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 50%;
+    background: var(--right-background) no-repeat left top;
+    background-size: cover;
+    &::before {
+        content: '';
+        height: 100%;
+        width: 265px;
+        background: var(--left-background) no-repeat right top;
+        background-size: cover;
+        position: absolute;
+        left: -1px;
+    }
+}
+.chart-title {
+    background: no-repeat left center;
+    padding-inline-start: 30px;
+    margin-bottom: 7px;
+}
+.feature-title {
+    background: no-repeat left center;
+    padding-inline-start: 30px;
+    margin-bottom: 7px;
+}

@@ -1,0 +1,331 @@
+ol, ul {
+    padding-inline-end: 0;
+}
+
+#scrollUp {
+    right: unset;
+    left: 20px;
+}
+
+.map-info {
+    right: unset;
+    left: 38px;
+}
+
+.box-background-offer {
+    .bg-under {
+        left: unset;
+        right: -100px;
+    }
+}
+
+.btn {
+    &.btn-link {
+        span {
+            svg {
+                transform: rotate(-135deg);
+            }
+        }
+    }
+
+    &.btn-link-medium {
+        padding: 18px 0 18px 26px;
+
+        svg {
+            transform: rotate(180deg);
+        }
+
+        &:hover {
+            svg {
+                transform: rotate(225deg);
+            }
+        }
+    }
+
+    &.btn-border-brand-1 {
+        padding: 8px 11px 8px 10px;
+        right: unset;
+        left: 10px;
+    }
+}
+
+.image-2 {
+    right: unset;
+    left: -10px;
+}
+
+.box-image-touch {
+    right: unset;
+    left: 0;
+    background-position: right top;
+
+    &:before {
+        left: unset;
+        right: -3px;
+        top: -5px;
+        transform: rotate(180deg);
+        background: var(--left-background) no-repeat right top;
+    }
+}
+
+.chart-title {
+    background-position: right top;
+}
+
+.title-favicon {
+    background-position: right top 4px;
+}
+
+.bg-customers-say {
+    &:before {
+        right: unset;
+        left: 0;
+        background-position: top right;
+        transform: rotateY(-180deg);
+    }
+
+    &:after {
+        right: unset;
+        left: 30px;
+        background-position: top right;
+    }
+}
+
+.swiper-container-rtl {
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        content: '';
+    }
+
+    .box-pagination-customers {
+        .swiper-button-next-style-1 {
+            right: 0;
+            left: auto;
+        }
+
+        .swiper-button-prev-style-1 {
+            right: 58px;
+            left: auto;
+        }
+    }
+}
+
+.cardGrid {
+    .cardInfo {
+        left: unset;
+        right: 0;
+    }
+}
+
+select {
+    background-position: left 18px top 22px;
+}
+
+.cd-form {
+    float: right;
+    margin: 1px 0 0 10px;
+}
+
+.header {
+    .main-menu {
+        li {
+            float: right;
+
+            &.has-children > a {
+                &:after {
+                    right: unset;
+                    left: 0;
+                }
+            }
+        }
+    }
+}
+
+.box-banner-homepage2 {
+    .bg-image-home2 {
+        right: unset;
+        left: 0;
+        background-position: top left;
+    }
+}
+
+.box-image-why {
+    .quote {
+        right: 70px;
+        left: unset;
+    }
+}
+
+.feature-title {
+    background-position: right top;
+}
+
+.box-info-3-bottom {
+    left: unset;
+    right: 0;
+}
+
+.box-images-info-3 {
+    padding: 0 130px 0 0;
+}
+
+.cardTeam {
+    .cardInfo {
+        left: 40px;
+        right: 18px;
+    }
+}
+
+.box-images-info-4 {
+    &:before {
+        right: unset;
+        left: 0;
+    }
+}
+
+.box-newsletter {
+    &:before {
+        left: 37px;
+        right: unset;
+    }
+
+    &:after {
+        left: 37px;
+        right: unset;
+        transform: rotateY(180deg);
+    }
+}
+
+.cardService {
+    .cardInfo {
+        right: 18px;
+        left: 40px;
+    }
+}
+
+.box-item-number {
+    &.box-item-number-3 {
+        padding: 35px 45px 35px 5px;
+    }
+
+    &:before {
+        left: unset;
+        right: 0;
+    }
+}
+
+.box-button-play {
+    left: -30px;
+    right: unset;
+}
+
+.box-list-how-it-work {
+    .list-how-works {
+        li {
+            &:before {
+                background-position: top right;
+                left: unset;
+                right: 50%;
+            }
+        }
+    }
+}
+
+.box-button-play-2 {
+    left: unset;
+    right: 0;
+}
+
+.form-trackparcel {
+    form {
+        .form-group {
+            .btn-track {
+                right: unset;
+                left: 0;
+            }
+        }
+    }
+}
+
+.box-info-testimonial-4 {
+    right: -40px;
+    left: unset;
+}
+
+.newsletter-form {
+    .btn {
+        &.btn-brand-1 {
+            right: 0 !important;
+            left: unset !important;
+        }
+    }
+}
+
+.quote-blog {
+    right: -80px;
+    left: unset;
+}
+
+.bg-right-blog {
+    left: 0;
+    right: unset;
+}
+
+.pagination {
+    li {
+        .page-prev {
+            transform: rotate(180deg);
+        }
+
+        .page-next {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+.box-search-top {
+    .form-search-top {
+        .btn-search {
+            left: 10px;
+            right: unset;
+        }
+    }
+}
+
+.burger-icon {
+    right: unset;
+    left: 0;
+
+    &.burger-close {
+        left: 30px;
+        right: unset;
+    }
+}
+
+.mobile-header-wrapper-style {
+    .mobile-header-wrapper-inner {
+        .mobile-header-content-area {
+            .mobile-menu-wrap {
+                nav {
+                    .mobile-menu {
+                        li {
+                            &.has-children {
+                                .menu-expand {
+                                    right: unset;
+                                    left: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.box-search-top {
+    .form-search-top {
+        right: unset;
+        left: -20px;
+    }
+}

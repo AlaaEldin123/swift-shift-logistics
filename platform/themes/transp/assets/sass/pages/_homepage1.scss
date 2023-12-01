@@ -1,0 +1,129 @@
+.title-favicon {
+    background-image: url(../images/icons/favicon.svg);
+    background-repeat: no-repeat;
+    background-position: left top 4px;
+    padding-inline-start: 55px;
+    min-height: 40px;
+}
+
+.box-author {
+    display: flex;
+    align-items: center;
+
+    img {
+        max-width: 72px;
+        height: 72px;
+        width: 72px;
+        border-radius: 50%;
+        margin-inline-end: 10px;
+        display: block;
+    }
+
+    .author-info {
+        .author-name {
+            display: block;
+        }
+
+        img {
+            width: 12px;
+            height: auto;
+            border-radius: 0;
+            margin-inline-end: 0;
+            max-width: 100%;
+        }
+    }
+}
+
+.box-pagination-customers {
+    position: relative;
+    margin-top: 48px;
+}
+
+.swiper-button-prev-style-1 {
+    left: 0;
+    right: auto;
+    top: 0;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    background-image: none;
+    background-color: $background-white;
+    border: 1px solid $color-gray-100;
+
+    &:hover {
+        background-color: $color-brand-1;
+        background-image: none;
+    }
+
+    svg {
+        height: 12px;
+        color: $color-brand-2;
+    }
+}
+
+.swiper-button-next-style-1 {
+    left: 58px;
+    right: auto;
+    top: 0;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    background-image: none;
+    background-color: $background-white;
+    border: 1px solid $color-gray-100;
+
+    &:hover {
+        background-color: $color-brand-1;
+        background-image: none;
+    }
+
+    svg {
+        height: 12px;
+        color: $color-brand-2;
+    }
+}
+
+.bg-what-done {
+    background: no-repeat bottom left;
+}
+
+.swiper-group-4 {
+    .swiper-button-prev-style-1 {
+        left: 0;
+        right: 65px;
+        margin: auto;
+    }
+
+    .swiper-button-next-style-1 {
+        left: 0;
+        right: -55px;
+        margin: auto;
+    }
+}
+
+.line-border {
+    border-bottom: 1px solid $color-mutted;
+    margin: 20px 0;
+}
+
+.box-button-sliders {
+    position: relative;
+    display: inline-block;
+    min-width: 100px;
+}
+
+.box-map {
+    position: relative;
+}
+
+.map-info {
+    position: absolute;
+    top: 48px;
+    bottom: 48px;
+    right: 38px;
+    max-width: 340px;
+    z-index: 12;
+    background-color: $background-white;
+    padding: 35px 31px;
+    margin-inline-start: 38px;
+}
