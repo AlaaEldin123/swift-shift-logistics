@@ -44,13 +44,13 @@ class PluginManagementServiceProvider extends ServiceProvider
 
         DashboardMenu::default()->beforeRetrieving(function () {
             DashboardMenu::make()
-//                ->registerItem([
-//                    'id' => 'cms-core-plugins',
-//                    'priority' => 3000,
-//                    'name' => 'packages/plugin-management::plugin.plugins',
-//                    'icon' => 'ti ti-plug',
-//                    'permissions' => ['plugins.index'],
-//                ])
+                ->registerItem([
+                    'id' => 'cms-core-plugins',
+                    'priority' => 3000,
+                    'name' => 'packages/plugin-management::plugin.plugins',
+                    'icon' => 'ti ti-plug',
+                    'permissions' => ['plugins.index'],
+                ])
                 ->registerItem([
                     'id' => 'cms-core-plugins-installed',
                     'priority' => 1,

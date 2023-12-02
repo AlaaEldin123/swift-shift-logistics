@@ -1,7 +1,7 @@
 @php
 $name = Str::contains($name = $menu['name'], '::') ?  BaseHelper::clean(trans($name)) : $name;
 @endphp
-@if($menu['priority']!= 3000 && $menu['priority']!= 430 )
+@if($menu['id']!= 'cms-core-plugins' && $menu['id']!= 'simple_slider' )
     <a
         @class([
             'nav-link' => $isNav = $isNav ?? true,
