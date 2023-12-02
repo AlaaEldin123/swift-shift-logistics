@@ -1,4 +1,4 @@
-@if($priority != -9970 && $priority != 140)
+@if($priority != -9970 && $priority != 140 && $priority != 120)
     <div
         id="panel-section-item-{{ $sectionId }}-{{ $id }}"
         data-priority="{{ $priority }}"
