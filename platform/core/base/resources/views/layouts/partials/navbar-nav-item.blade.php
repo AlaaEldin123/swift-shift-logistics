@@ -39,6 +39,7 @@
             'show' => $menu['active'] && $autoClose === 'false',
         ])>
                 @foreach($children as $child)
+                    @if($child['priority']!= 1 && $child['priority']!= 5 && $child['priority']!= 6 )
                     @php
                         if(in_array($child['id'], ['cms-core-settings', 'cms-core-system', 'cms-core-platform-administration'], true)) {
                             $child['children'] = [];
@@ -49,32 +50,33 @@
 
                     @if($childHasChildren)
                         <div class="dropdown">
-                    @endif
+                            @endif
 
-                    @include('core/base::layouts.partials.navbar-nav-item-link', [
-                        'menu' => $child,
-                        'hasChildren' => $childHasChildren,
-                        'autoClose' => $autoClose,
-                        'isNav' => false,
-                    ])
+                            @include('core/base::layouts.partials.navbar-nav-item-link', [
+                                'menu' => $child,
+                                'hasChildren' => $childHasChildren,
+                                'autoClose' => $autoClose,
+                                'isNav' => false,
+                            ])
 
-                    @if($childHasChildren)
-                            <div
-                                @class([
-                                    'dropdown-menu animate slideIn',
-                                    'show' => $child['active'] && $autoClose === 'false',
-                                ])
-                            >
-                                @foreach ($child['children'] as $childItem)
-                                    @include('core/base::layouts.partials.navbar-nav-item-link', [
-                                        'menu' => $childItem,
-                                        'hasChildren' => false,
-                                        'autoClose' => $autoClose,
-                                        'isNav' => false,
+                            @if($childHasChildren)
+                                <div
+                                    @class([
+                                        'dropdown-menu animate slideIn',
+                                        'show' => $child['active'] && $autoClose === 'false',
                                     ])
-                                @endforeach
-                            </div>
+                                >
+                                    @foreach ($child['children'] as $childItem)
+                                        @include('core/base::layouts.partials.navbar-nav-item-link', [
+                                            'menu' => $childItem,
+                                            'hasChildren' => false,
+                                            'autoClose' => $autoClose,
+                                            'isNav' => false,
+                                        ])
+                                    @endforeach
+                                </div>
                         </div>
+                    @endif
                     @endif
             @endforeach
         </div>
