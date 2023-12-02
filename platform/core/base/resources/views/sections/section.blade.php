@@ -19,9 +19,9 @@
         </x-core::card.header>
 
         <x-core::card.body>
-            <div class="row g-3">
-                {{ $children }}
-            </div>
+                <div class="row g-3">
+                    {{ $children }}
+                </div>
         </x-core::card.body>
     </x-core::card>
 @endif
